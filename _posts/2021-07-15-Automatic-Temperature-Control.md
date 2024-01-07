@@ -22,10 +22,9 @@ Projeyle ilgili tüm kaynak dosyaları [buradan](/assets/automatic temperature c
 ## Simülasyon
 
 ### Adım 1. Sistemin başlatılması ve kullanıcıdan referans sıcaklık değeri istenmesi (37°C girildi)
-<img src="/assets/automatic temperature control/1.gif" alt="simülasyon adım1" width="">
+<img src="/assets/automatic temperature control/2.gif" alt="simülasyon adım1" width="">
 
 ### Adım 2. Ortam sıcaklığının referans değerden küçük veya büyük olma durumu (ısıtıcı/fan devrede)
-<img src="/assets/automatic temperature control/2.gif" alt="simülasyon adım2" width="">
 
 ### Adım 3. Ortam sıcaklığının 40°C üzerinde olması
 
