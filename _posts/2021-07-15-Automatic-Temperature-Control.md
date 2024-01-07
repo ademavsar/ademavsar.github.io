@@ -7,7 +7,7 @@ tags: [pic18f46k22]     ## TAG names should always be lowercase
 ## Proje Hakkında
 Sistem, insan müdahalesi olmadan belirli bir alanın sıcaklığını izleme ve kontrol etme özelliğine sahiptir. Birincil amaç; sistemin bir kullanıcı tarafından yapılan ayarlara dayalı olarak belirli bir alanın sıcaklığını yönetmektir.
 
-görsel
+<img src="/assets/images/blockdiagram.png" alt="automatic temperature control block diagram" width="">
 
 Proje, bir alanın sıcaklığını otomatik olarak kontrol etmek için bir mikrodenetleyici kullanıyor. Bu alan, kontrollü bir sıcaklık gerektiren küçük bir bitki, bir ev veya herhangi bir cihaz olabilir. Şekil 1, tasarlanacak sistemin blok diyagramını göstermektedir.
 
@@ -18,11 +18,13 @@ Cihaz çalışmaya başladığında PIC dahili EEPROM'dan referans sıcaklığı
 Projeyle ilgili tüm kaynak dosyaları -yazının sonunda- paylaşıyorum. Kodlarda fazlasıyla yorum göreceksiniz. Anlaşılır olacaktır.
 
 ## Projeye Kodları
-
----
+<br>
 
 ```C
+deneme 123
+```
 
+```C
 char keypadPort at PORTC;				// Keypad bağlantı portu tanımı
 
 sbit LCD_RS at RB4_bit;					// LCD pinleri için bit tanımlamaları
@@ -181,8 +183,7 @@ void main() {
 	}
 }
 ```
-
----
+<br>
 
 ## Simülasyon Görüntüleri
 ## Kaynak Dosyalar
