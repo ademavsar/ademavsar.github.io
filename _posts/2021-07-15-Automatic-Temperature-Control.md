@@ -19,8 +19,8 @@ Projeyle ilgili tüm kaynak dosyaları -yazının sonunda- paylaşıyorum. Kodla
 
 ## Projeye Kodları
 
-    ```C
-	// Keypad bağlantı portu tanımı
+ ```C
+// Keypad bağlantı portu tanımı
 char keypadPort at PORTC;
 
 // LCD pinleri için bit tanımlamaları
@@ -180,5 +180,6 @@ void main() {
         LED = OFF;                 // Değilse LED'i kapat
     }}}
 	```
+a
 ## Simülasyon Görüntüleri
 ## Kaynak Dosyalar
