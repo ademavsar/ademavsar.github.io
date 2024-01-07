@@ -7,7 +7,7 @@ tags: [pic18f46k22]     ## TAG names should always be lowercase
 ## Proje Hakkında
 Sistem, insan müdahalesi olmadan belirli bir alanın sıcaklığını izleme ve kontrol etme özelliğine sahiptir. Birincil amaç; sistemin bir kullanıcı tarafından yapılan ayarlara dayalı olarak belirli bir alanın sıcaklığını yönetmektir.
 
-<img src="/assets/images/projectblockdiagram.png" alt="automatic temperature control block diagram" width="400">
+<img src="/assets/images/projectblockdiagram.png" alt="automatic temperature control block diagram" width="700">
 
 
 Proje, bir alanın sıcaklığını otomatik olarak kontrol etmek için bir mikrodenetleyici kullanıyor. Bu alan, kontrollü bir sıcaklık gerektiren küçük bir bitki, bir ev veya herhangi bir cihaz olabilir. 
@@ -21,7 +21,7 @@ Projeyle ilgili tüm kaynak dosyaları -yazının sonunda- paylaşıyorum. Kodla
 ## Projeye Kodları
 <br>
 
-```C
+``` C#
 char keypadPort at PORTC;				// Keypad bağlantı portu tanımı
 
 sbit LCD_RS at RB4_bit;					// LCD pinleri için bit tanımlamaları
