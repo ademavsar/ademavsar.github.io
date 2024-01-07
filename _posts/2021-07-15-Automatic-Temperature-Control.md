@@ -19,10 +19,7 @@ Projeyle ilgili tüm kaynak dosyaları -yazının sonunda- paylaşıyorum. Kodla
 
 ## Projeye Kodları
 <br>
-
-```C
-deneme 123
-```
+<br>
 
 ```C
 char keypadPort at PORTC;				// Keypad bağlantı portu tanımı
@@ -183,6 +180,7 @@ void main() {
 	}
 }
 ```
+<br>
 <br>
 
 ## Simülasyon Görüntüleri
