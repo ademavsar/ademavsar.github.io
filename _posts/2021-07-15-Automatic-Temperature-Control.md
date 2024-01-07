@@ -19,28 +19,27 @@ Projeyle ilgili tüm kaynak dosyaları -yazının sonunda- paylaşıyorum. Kodla
 
 ## Projeye Kodları
 
- ```C
-// Keypad bağlantı portu tanımı
-char keypadPort at PORTC;
+---
 
-// LCD pinleri için bit tanımlamaları
-sbit LCD_RS at RB4_bit;
+```C
+
+char keypadPort at PORTC;				// Keypad bağlantı portu tanımı
+
+sbit LCD_RS at RB4_bit;					// LCD pinleri için bit tanımlamaları
 sbit LCD_EN at RB5_bit;
 sbit LCD_D7 at RB3_bit;
 sbit LCD_D6 at RB2_bit;
 sbit LCD_D5 at RB1_bit;
 sbit LCD_D4 at RB0_bit;
 
-// LCD pinlerinin yönlendirilmesi
-sbit LCD_RS_Direction at TRISB4_bit;
+sbit LCD_RS_Direction at TRISB4_bit;	// LCD pinlerinin yönlendirilmesi
 sbit LCD_EN_Direction at TRISB5_bit;
 sbit LCD_D7_Direction at TRISB3_bit;
 sbit LCD_D6_Direction at TRISB2_bit;
 sbit LCD_D5_Direction at TRISB1_bit;
 sbit LCD_D4_Direction at TRISB0_bit;
 
-// Tanımlamalar
-#define HEATER PORTD.RD0
+#define HEATER PORTD.RD0				// Tanımlamalar
 #define FAN PORTD.RD1
 #define LED PORTD.RD3
 #define ENTER 15
@@ -178,8 +177,12 @@ void main() {
     }
     else{
         LED = OFF;                 // Değilse LED'i kapat
-    }}}
-	```
-a
+    	}
+	}
+}
+```
+
+---
+
 ## Simülasyon Görüntüleri
 ## Kaynak Dosyalar
