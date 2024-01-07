@@ -11,7 +11,7 @@ Sistem, insan müdahalesi olmadan belirli bir alanın sıcaklığını izleme ve
 
 Proje, bir alanın sıcaklığını otomatik olarak kontrol etmek için bir mikrodenetleyici kullanıyor. Bu alan, kontrollü bir sıcaklık gerektiren küçük bir bitki, bir ev veya herhangi bir cihaz olabilir. 
 
-İstenilen sıcaklık ayarı bir keypad kullanılarak girilir. Alanın sıcaklığı analog bir sıcaklık sensörü (LM35) kullanılarak ölçülür. Mikrodenetleyici sıcaklığı sürekli olarak okur ve istenen değerle karşılaştırır. İstenen değer ölçülen değerden yüksek ise ısıtıcı alanı ısıtmak için açılır. İstenilen sıcaklığa ulaşıldığında ısıtıcı kapatılır. Öte yandan ölçülen değer istenen değerden yüksek ise, istenen sıcaklığa ulaşılana kadar alanı soğutmak için fan devreye girer. Sıcaklık 40 derece veya daha yüksek bir kritik değere ulaşırsa sesli uyarı sürekli olarak çalacak ve sıcaklık 40 derece nin altına düşene kadar bir led yanıp sönecek. LCD ekran sürekli olarak ölçülen sıcaklığı gösterecektir.
+İstenilen sıcaklık ayarı bir keypad kullanılarak girilir. Alanın sıcaklığı analog bir sıcaklık sensörü (LM35) kullanılarak ölçülür. Mikrodenetleyici sıcaklığı sürekli olarak okur ve istenen değerle karşılaştırır. İstenen değer ölçülen değerden yüksek ise ısıtıcı alanı ısıtmak için açılır. İstenilen sıcaklığa ulaşıldığında ısıtıcı kapatılır. Öte yandan ölçülen değer istenen değerden yüksek ise, istenen sıcaklığa ulaşılana kadar alanı soğutmak için fan devreye girer. Sıcaklık 40°C veya daha yüksek bir kritik değere ulaşırsa sesli uyarı sürekli olarak çalacak ve sıcaklık 40°C'nin altına düşene kadar bir led yanıp sönecek. LCD ekran sürekli olarak ölçülen sıcaklığı gösterecektir.
 
 Cihaz çalışmaya başladığında PIC dahili EEPROM'dan referans sıcaklığını okuyacak ve kayıtlı bir değer yoksa kullanıcıdan yeni bir referans sıcaklığı girmesini isteyecektir. PIC bu değeri dahili EEPROM'a kaydettiği için sistem tekrar başladığında önceki girilen referans sıcaklığı aynı kalacaktır. Yeni bir referans sıcaklığı ayarlamak istendiğinde, kurulum menüsüne tekrar erişmek için * tuşuna 3 saniye basılı tutulması, tamam için ise # tuşuna basılması gerekir.
 
@@ -20,7 +20,16 @@ Projeyle ilgili tüm kaynak dosyaları [buradan](/assets/automatic temperature c
 <img src="/assets/automatic temperature control/devre şeması.jpg" alt="devre şeması" width="">
 
 ## Simülasyon
-<img src="/assets/automatic temperature control/project.gif" alt="simülasyon" width="">
+
+### Adım 1. Sistemin başlatılması ve kullanıcıdan referans sıcaklık değeri istenmesi (37°C girildi)
+<img src="/assets/automatic temperature control/1.gif" alt="simülasyon adım1" width="">
+
+### Adım 2. Ortam sıcaklığının referans değerden küçük veya büyük olma durumu (ısıtıcı/fan devrede)
+<img src="/assets/automatic temperature control/2.gif" alt="simülasyon adım2" width="">
+
+### Adım 3. Ortam sıcaklığının 40°C üzerinde olması
+
+
 
 ## Projeye Kodları
 <br>
