@@ -15,7 +15,7 @@ Proje, bir alanın sıcaklığını otomatik olarak kontrol etmek için bir mikr
 
 Cihaz çalışmaya başladığında PIC dahili EEPROM'dan referans sıcaklığını okuyacak ve kayıtlı bir değer yoksa kullanıcıdan yeni bir referans sıcaklığı girmesini isteyecektir. PIC bu değeri dahili EEPROM'a kaydettiği için sistem tekrar başladığında önceki girilen referans sıcaklığı aynı kalacaktır. Yeni bir referans sıcaklığı ayarlamak istendiğinde, kurulum menüsüne tekrar erişmek için * tuşuna 3 saniye basılı tutulması, tamam için ise # tuşuna basılması gerekir.
 
-Projeyle ilgili tüm kaynak dosyaları buradan edinebilirsiniz. Kodlarda fazlasıyla yorum göreceksiniz. Anlaşılır olacaktır.
+Projeyle ilgili tüm kaynak dosyaları [buradan](/assets/automatic temperature control/Proteus.zip) edinebilirsiniz. Kodlarda fazlasıyla yorum göreceksiniz. Anlaşılır olacaktır.
 
 <img src="/assets/automatic temperature control/devre şeması.jpg" alt="devre şeması" width="">
 
