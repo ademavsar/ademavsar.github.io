@@ -7,7 +7,7 @@ tags: [pic18f46k22]     ## TAG names should always be lowercase
 ## Proje Hakkında
 Sistem, insan müdahalesi olmadan belirli bir alanın sıcaklığını izleme ve kontrol etme özelliğine sahiptir. Birincil amaç; sistemin bir kullanıcı tarafından yapılan ayarlara dayalı olarak belirli bir alanın sıcaklığını yönetmektir.
 
-<img src="/assets/images/blockdiagram.png" alt="automatic temperature control block diagram" width="">
+<img src="/assets/images/projectblockdiagram.png" alt="automatic temperature control block diagram" width="">
 
 Proje, bir alanın sıcaklığını otomatik olarak kontrol etmek için bir mikrodenetleyici kullanıyor. Bu alan, kontrollü bir sıcaklık gerektiren küçük bir bitki, bir ev veya herhangi bir cihaz olabilir. Şekil 1, tasarlanacak sistemin blok diyagramını göstermektedir.
 
@@ -23,21 +23,18 @@ Projeyle ilgili tüm kaynak dosyaları -yazının sonunda- paylaşıyorum. Kodla
 
 ```C
 char keypadPort at PORTC;				// Keypad bağlantı portu tanımı
-
 sbit LCD_RS at RB4_bit;					// LCD pinleri için bit tanımlamaları
 sbit LCD_EN at RB5_bit;
 sbit LCD_D7 at RB3_bit;
 sbit LCD_D6 at RB2_bit;
 sbit LCD_D5 at RB1_bit;
 sbit LCD_D4 at RB0_bit;
-
 sbit LCD_RS_Direction at TRISB4_bit;	// LCD pinlerinin yönlendirilmesi
 sbit LCD_EN_Direction at TRISB5_bit;
 sbit LCD_D7_Direction at TRISB3_bit;
 sbit LCD_D6_Direction at TRISB2_bit;
 sbit LCD_D5_Direction at TRISB1_bit;
 sbit LCD_D4_Direction at TRISB0_bit;
-
 #define HEATER PORTD.RD0				// Tanımlamalar
 #define FAN PORTD.RD1
 #define LED PORTD.RD3
@@ -45,7 +42,6 @@ sbit LCD_D4_Direction at TRISB0_bit;
 #define CLEAR 13
 #define ON 1
 #define OFF 0
-
 void main() {
 	unsigned short kp,Txt[14];   // Keypad'den okunan değeri saklayacak değişken, LCD
     unsigned int Temp_Ref;       // Kullanıcının ayarladığı referans sıcaklık değeri
