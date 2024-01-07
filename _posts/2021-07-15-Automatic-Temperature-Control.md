@@ -15,11 +15,12 @@ Proje, bir alanın sıcaklığını otomatik olarak kontrol etmek için bir mikr
 
 Cihaz çalışmaya başladığında PIC dahili EEPROM'dan referans sıcaklığını okuyacak ve kayıtlı bir değer yoksa kullanıcıdan yeni bir referans sıcaklığı girmesini isteyecektir. PIC bu değeri dahili EEPROM'a kaydettiği için sistem tekrar başladığında önceki girilen referans sıcaklığı aynı kalacaktır. Yeni bir referans sıcaklığı ayarlamak istendiğinde, kurulum menüsüne tekrar erişmek için * tuşuna 3 saniye basılı tutulması, tamam için ise # tuşuna basılması gerekir.
 
-Projeyle ilgili tüm kaynak dosyaları -yazının sonunda- paylaşıyorum. Kodlarda fazlasıyla yorum göreceksiniz arkadaşlar. Umarım anlaşılır olacaktır.
+Projeyle ilgili tüm kaynak dosyaları -yazının sonunda- paylaşıyorum. Kodlarda fazlasıyla yorum göreceksiniz. Anlaşılır olacaktır.
 
 ## Projeye Kodları
 
-// Keypad bağlantı portu tanımı
+    ```C
+	// Keypad bağlantı portu tanımı
 char keypadPort at PORTC;
 
 // LCD pinleri için bit tanımlamaları
@@ -178,10 +179,6 @@ void main() {
     else{
         LED = OFF;                 // Değilse LED'i kapat
     }}}
-
-    
-    ## Simülasyon Görüntüleri
-
-    ## Kaynak Dosyalar
-    ### MicroC Pro Dosyaları
-    ### Proteus Dosyaları
+	```
+## Simülasyon Görüntüleri
+## Kaynak Dosyalar
