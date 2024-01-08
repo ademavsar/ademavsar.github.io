@@ -17,7 +17,7 @@ Cihaz çalışmaya başladığında PIC dahili EEPROM'dan referans sıcaklığı
 
 <img src="/assets/automatic temperature control/devre şeması.jpg" alt="devre şeması" width="">
 
-Proteus simülasyon kaynak dosyasını [buradan](/assets/automatic temperature control/Proteus.zip) edinebilirsiniz. 
+Proteus simülasyon kaynak dosyasını [buradan](/assets/automatic temperature control/New Project.zip) edinebilirsiniz. 
 
 ## Simülasyon
 
