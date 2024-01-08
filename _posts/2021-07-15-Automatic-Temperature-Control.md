@@ -17,13 +17,13 @@ Cihaz çalışmaya başladığında PIC dahili EEPROM'dan referans sıcaklığı
 
 <img src="/assets/automatic temperature control/devre şeması.jpg" alt="devre şeması" width="">
 
-Proteus simülasyon tüm kaynak dosyasını [buradan](/assets/automatic temperature control/Proteus.zip) edinebilirsiniz. Kodlarda fazlasıyla yorum göreceksiniz. Anlaşılır olacaktır.
+Proteus simülasyon tüm kaynak dosyasını [buradan](/assets/automatic temperature control/Proteus.zip) edinebilirsiniz. 
 
 ## Simülasyon
 
 Adım 1. Sistemin başlatılması ve kullanıcıdan referans sıcaklık değeri istenmesi (37°C girildi)
 
-<img src="https://i.imgur.com/AGVLg0Q.mp4" alt="açıklama" style="width:100%; height: auto;">
+<img src="https://imgur.com/gallery/AGVLg0Q" alt="açıklama" style="width:100%; height: auto;">
 
 
 ### Adım 2. Ortam sıcaklığının referans değerden küçük veya büyük olma durumu (ısıtıcı/fan devrede)
@@ -32,6 +32,7 @@ Adım 1. Sistemin başlatılması ve kullanıcıdan referans sıcaklık değeri 
 
 
 ## Projeye Kodları
+Kodlarda fazlasıyla yorum göreceksiniz. Anlaşılır olacaktır.
 <br>
 
 ```c
