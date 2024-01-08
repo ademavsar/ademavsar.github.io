@@ -23,7 +23,7 @@ Projeyle ilgili tüm kaynak dosyaları [buradan](/assets/automatic temperature c
 
 ### Adım 1. Sistemin başlatılması ve kullanıcıdan referans sıcaklık değeri istenmesi (37°C girildi)
 
-<iframe class="imgur-embed" width="100%" height="720" frameborder="0" src="https://i.imgur.com/AGVLg0Q.gifv#embed"></iframe>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/AGVLg0Q" data-context="false" ><a href="//imgur.com/a/AGVLg0Q"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ### Adım 2. Ortam sıcaklığının referans değerden küçük veya büyük olma durumu (ısıtıcı/fan devrede)
 
