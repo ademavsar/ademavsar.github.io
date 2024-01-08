@@ -8,6 +8,15 @@ order: 4
 🔗 Bağlantılar:<br>
 [![TryHackMe](https://img.shields.io/badge/tryhackme-212C42?style=for-the-badge&logo=TryHackMe)](https://tryhackme.com/p/avsar) [![Letsdefend](https://img.shields.io/badge/letsdefend-335EEA?style=for-the-badge&logo=cyberdefenders)](https://app.letsdefend.io/user/avsar) [![Medium](https://img.shields.io/badge/medium-000000?style=for-the-badge&logo=Medium)](https://medium.com/@avsar)
 
+<script src="https://tryhackme.com/badge/2577168"></script>
+
+<br>
+
+<img src="https://tryhackme-badges.s3.amazonaws.com/avsar.png" alt="TryHackMe">
+
+
+
+
 Mühendislik bir kültürdür, bir yaşam biçimidir. Araştırmayı, okuduğunu anlamayı ve yorumlamayı öğretir. Bu süreç, insana sadece bilim ve teknoloji alanında değil, hayatın her alanında kritik düşünme, problem çözme ve yenilikçi yaklaşımlar geliştirme becerileri kazandırır. 
 
 Mühendislik, sürekli büyüyen bir tutku, hayatı daha iyi anlamlandırma sanatı ve bitmeyen bir öğrenme yolculuğudur. 
