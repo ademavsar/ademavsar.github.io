@@ -155,17 +155,17 @@ void main() {
 
     // Referans sıcaklık ile gerçek sıcaklığın karşılaştırılması
     if(Temp_Ref>ActualTemp){
-        HEATER=ON;                 // Eğer referans sıcaklık gerçek sıcaklıktan yüksekse ısıtıcıyı aç
+        HEATER=ON;                 // Referans sıcaklık gerçek sıcaklıktan yüksekse ısıtıcıyı aç
         FAN=OFF;                   // Fanı kapat
     }
 
     if(Temp_Ref<ActualTemp){
-        HEATER=OFF;                // Eğer referans sıcaklık gerçek sıcaklıktan düşükse ısıtıcıyı kapat
+        HEATER=OFF;                // Referans sıcaklık gerçek sıcaklıktan düşükse ısıtıcıyı kapat
         FAN=ON;                    // Fanı aç
     }
 
     if(Temp_Ref==ActualTemp){
-        HEATER = OFF;              // Eğer referans sıcaklık gerçek sıcaklıkla aynıysa ısıtıcıyı kapat
+        HEATER = OFF;              // Referans sıcaklık gerçek sıcaklıkla aynıysa ısıtıcıyı kapat
         FAN = OFF;                 // Fanı kapat
     }
 
@@ -175,12 +175,12 @@ void main() {
         delay_ms(3000);           // 3 saniye bekle
         kp=Keypad_Key_Press();    // Keypad'den tuş değeri tekrar oku
         if(kp==CLEAR){
-            goto START;           // Eğer CLEAR tuşuna basıldıysa START'a git
+            goto START;           // CLEAR tuşuna basıldıysa START'a git
         }}
 
     // Buzzer kontrolü
     if (ActualTemp>=40){
-        Sound_Play(880,300);       // Eğer sıcaklık 40 derece veya üzerindeyse ses çal
+        Sound_Play(880,300);       // Sıcaklık 40°C veya üzerindeyse ses çal
         LED=~LED;                  // LED'i yanıp söndür
         delay_ms(200);             // 200 ms bekle
     }
