@@ -16,12 +16,3 @@ Bilgi, bu yolculuğun haritası, hayal gücü ise pusulasıdır.
 <br>
 
 > "Hayal gücü bilgiden daha önemlidir. Çünkü bilgi sınırlıyken, hayal gücü tüm dünyayı kapsar." - Albert Einstein
-
-<br>
-<!-- 
-<br>2024 hedeflerim:
-- IELTS +7.5
-- Python, CSS, HTML, JS
-- OSCP
-<br>
--->
