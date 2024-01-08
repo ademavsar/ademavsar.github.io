@@ -12,11 +12,6 @@ order: 4
 
 <br>
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/avsar.png" alt="TryHackMe">
-
-
-
-
 Mühendislik bir kültürdür, bir yaşam biçimidir. Araştırmayı, okuduğunu anlamayı ve yorumlamayı öğretir. Bu süreç, insana sadece bilim ve teknoloji alanında değil, hayatın her alanında kritik düşünme, problem çözme ve yenilikçi yaklaşımlar geliştirme becerileri kazandırır. 
 
 Mühendislik, sürekli büyüyen bir tutku, hayatı daha iyi anlamlandırma sanatı ve bitmeyen bir öğrenme yolculuğudur. 
