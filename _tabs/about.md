@@ -12,7 +12,7 @@ Mühendislik bir kültürdür, bir yaşam biçimidir. Araştırmayı, okuduğunu
 
 Mühendislik, sürekli büyüyen bir tutku, hayatı daha iyi anlamlandırma sanatı ve bitmeyen bir öğrenme yolculuğudur. 
 
-Bilgi, bu yolculuğun haritasıdır; hayal gücü ise pusulamızdır.
+Bilgi, bu yolculuğun haritası, hayal gücü ise pusulasıdır.
 <br>
 > "Hayal gücü bilgiden daha önemlidir. Çünkü bilgi sınırlıyken, hayal gücü tüm dünyayı kapsar." - Albert Einstein
 
