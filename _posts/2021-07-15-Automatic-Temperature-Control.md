@@ -9,7 +9,7 @@ Sistem, insan müdahalesi olmadan belirli bir alanın sıcaklığını izleme ve
 
 <img src="/assets/automatic temperature control/0.png" alt="project" width="480">
 
-Proje, bir alanın sıcaklığını otomatik olarak kontrol etmek için bir mikrodenetleyici kullanıyor. Bu alan, kontrollü bir sıcaklık gerektiren küçük bir bitki, bir ev veya herhangi bir cihaz olabilir. 
+Proje, bir alanın sıcaklığını otomatik olarak kontrol etmek için bir mikrodenetleyici (PIC18F46K22) kullanıyor. Bu alan, kontrollü bir sıcaklık gerektiren küçük bir bitki, bir ev veya herhangi bir cihaz olabilir. 
 
 İstenilen sıcaklık ayarı bir keypad kullanılarak girilir. Alanın sıcaklığı analog bir sıcaklık sensörü (LM35) kullanılarak ölçülür. Mikrodenetleyici sıcaklığı sürekli olarak okur ve istenen değerle karşılaştırır. İstenen değer ölçülen değerden yüksek ise ısıtıcı alanı ısıtmak için açılır. İstenilen sıcaklığa ulaşıldığında ısıtıcı kapatılır. Öte yandan ölçülen değer istenen değerden yüksek ise, istenen sıcaklığa ulaşılana kadar alanı soğutmak için fan devreye girer. Sıcaklık 40°C veya daha yüksek bir kritik değere ulaşırsa sesli uyarı sürekli olarak çalacak ve sıcaklık 40°C'nin altına düşene kadar bir led yanıp sönecek. LCD ekran sürekli olarak ölçülen sıcaklığı gösterecektir.
 
