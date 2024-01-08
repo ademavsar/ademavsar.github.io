@@ -7,7 +7,7 @@ tags: [pic18f46k22]     ## TAG names should always be lowercase
 ## Proje Hakkında
 Sistem, insan müdahalesi olmadan belirli bir alanın sıcaklığını izleme ve kontrol etme özelliğine sahiptir. Birincil amaç; sistemin bir kullanıcı tarafından yapılan ayarlara dayalı olarak belirli bir alanın sıcaklığını yönetmektir.
 
-<img src="/assets/automatic temperature control/0.png" alt="proje" width="720">
+<img src="/assets/automatic temperature control/0.png" alt="proje" width="480">
 
 Proje, bir alanın sıcaklığını otomatik olarak kontrol etmek için bir mikrodenetleyici kullanıyor. Bu alan, kontrollü bir sıcaklık gerektiren küçük bir bitki, bir ev veya herhangi bir cihaz olabilir. 
 
@@ -23,7 +23,7 @@ Projeyle ilgili tüm kaynak dosyaları [buradan](/assets/automatic temperature c
 
 ### Adım 1. Sistemin başlatılması ve kullanıcıdan referans sıcaklık değeri istenmesi (37°C girildi)
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="AGVLg0Q"  ><a href="//imgur.com/AGVLg0Q">automatic temperature control with pic18f46k22</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="AGVLg0Q"  ><a href="https://imgur.com/AGVLg0Q">automatic temperature control with pic18f46k22</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ### Adım 2. Ortam sıcaklığının referans değerden küçük veya büyük olma durumu (ısıtıcı/fan devrede)
 
