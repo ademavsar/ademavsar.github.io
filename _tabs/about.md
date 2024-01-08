@@ -14,11 +14,12 @@ Mühendislik, sürekli büyüyen bir tutku, hayatı daha iyi anlamlandırma sana
 
 Bilgi, bu yolculuğun haritası, hayal gücü ise pusulasıdır.
 <br>
+
 > "Hayal gücü bilgiden daha önemlidir. Çünkü bilgi sınırlıyken, hayal gücü tüm dünyayı kapsar." - Albert Einstein
-<p style="font-size: 12px;">Hayal gücü bilgiden daha önemlidir. Çünkü bilgi sınırlıyken, hayal gücü tüm dünyayı kapsar. - Albert Einstein</p>
 
 <br>
-<!-- 2024 hedeflerim:
+<!-- 
+2024 hedeflerim:
 - IELTS +7.5
 - Python, CSS, HTML, JS
-- OSCP
+- OSCP -->
