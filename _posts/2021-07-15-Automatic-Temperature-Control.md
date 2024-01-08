@@ -23,7 +23,7 @@ Proteus simülasyon tüm kaynak dosyasını [buradan](/assets/automatic temperat
 
 Adım 1. Sistemin başlatılması ve kullanıcıdan referans sıcaklık değeri istenmesi (37°C girildi)
 
-<img src="https://imgur.com/gallery/AGVLg0Q" alt="test" width="">
+<img src="https://i.imgur.com/AGVLg0Q.mp4" alt="test" width="">
 
 
 ### Adım 2. Ortam sıcaklığının referans değerden küçük veya büyük olma durumu (ısıtıcı/fan devrede)
