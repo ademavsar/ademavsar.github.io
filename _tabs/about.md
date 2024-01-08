@@ -19,7 +19,9 @@ Bilgi, bu yolculuğun haritası, hayal gücü ise pusulasıdır.
 
 <br>
 <!-- 
-2024 hedeflerim:
+<br>2024 hedeflerim:
 - IELTS +7.5
 - Python, CSS, HTML, JS
-- OSCP -->
+- OSCP
+<br>
+-->
