@@ -1,6 +1,6 @@
 ---
 layout: cv
-icon: fa-solid fa-file-pdf
+icon: fas fa-file-pdf
 order: 5
 ---
 
