@@ -1,5 +1,5 @@
 ---
-layout: öz geçmiş
+layout: cv
 icon: fa-solid fa-file-pdf
 order: 5
 ---
