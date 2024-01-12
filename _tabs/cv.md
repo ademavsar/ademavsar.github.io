@@ -1,5 +1,5 @@
 ---
-title: CV
-external_url: https://www.linkedin.com/in/ademavsar/
+title: öz geçmiş
+icon: fa-download
 order: 5
 ---
