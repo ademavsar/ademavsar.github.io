@@ -1,5 +1,5 @@
 ---
 title: öz geçmiş
-icon: fa-download
+icon: fas fa-download
 order: 5
 ---
