@@ -1,7 +1,7 @@
 ---
-title: öz geçmiş
+title: CV
 icon: fas fa-download
 order: 5
 ---
 
-## Güncel öz geçmişimi [buradan](https://ademavsar.github.io/about/) indirebilirsiniz.
+Güncel [öz geçmiş](https://ademavsar.github.io/about/)
