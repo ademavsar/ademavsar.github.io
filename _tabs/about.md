@@ -5,7 +5,6 @@ order: 4
 ---
 
 ![gif](/assets/img/owk.gif)
-![gif](/owk.gif)
 ![gif]("/assets/img/owk.gif")
 <img src="/assets/img/owk.gif" alt="gif" width="300">
 
