@@ -4,9 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 ![HELLO THERE](/owk.gif)
-![gif](/owk.gif)
-
-<img src="/assets/img/owk.gif" alt="HELLE THERE" style="width: 50%; float: left; margin-right: 10px;" />
+<img src="/owk.gif">
 
 
 <!-- 🔗 bağlantılar:<br>-->
