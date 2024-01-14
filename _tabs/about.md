@@ -5,9 +5,8 @@ order: 4
 ---
 
 ![HELLO THERE](/owk.gif)
-<img src="/owk.gif" alt="HELLO THERE">
 
-<!-- 🔗 bağlantılar:<br>-->
+<!-- 🔗 bağlantılar:<br> <img src="/obi.gif" alt="HELLO THERE"> -->
 <script src="https://tryhackme.com/badge/2577168"></script>
 
 
