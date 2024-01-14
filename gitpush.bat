@@ -9,5 +9,5 @@ git commit -m "update"
 REM Değişiklikleri remote repository'e push eder
 git push
 
-echo Değişiklikler başarıyla push edildi.
+echo okay beyb, it's done
 pause
