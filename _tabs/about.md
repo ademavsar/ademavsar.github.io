@@ -3,12 +3,13 @@
 icon: fas fa-info-circle
 order: 4
 ---
-![HELLO THERE](/owk.gif)
-<img src="/owk.gif">
 
+![HELLO THERE](/owk.gif)
+<img src="/owk.gif" alt="HELLO THERE">
 
 <!-- 🔗 bağlantılar:<br>-->
 <script src="https://tryhackme.com/badge/2577168"></script>
+
 
 <br>
 
