@@ -21,7 +21,7 @@ proteus simülasyon kaynak dosyasını [buradan](/assets/otomatik sıcaklık kon
 
 ## simülasyon
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i3vd4dmi2yc?si=6gye0rssumcejsid" title="youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I3VD4Dmi2Yc?si=_MiCg_gm0ptYgfYr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## gerekli kodlar
 kodlarda fazlasıyla yorum göreceksiniz. anlaşılır olacaktır.
