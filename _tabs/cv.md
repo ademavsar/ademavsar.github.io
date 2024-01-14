@@ -1,7 +1,7 @@
 ---
-title: CV
+title: cv
 icon: fas fa-download
 order: 5
 ---
 
-Güncel [öz geçmiş](https://ademavsar.github.io/about/)
+güncel [öz geçmiş](https://ademavsar.github.io/about/)
