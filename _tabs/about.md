@@ -4,12 +4,10 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<iframe src="https://giphy.com/embed/Nx0rz3jtxtEre" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mrw-top-escalator-Nx0rz3jtxtEre"></a></p>
+<iframe src="https://giphy.com/embed/Nx0rz3jtxtEre" width="360" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mrw-top-escalator-Nx0rz3jtxtEre"></a></p>
 
 <!-- 🔗 bağlantılar:<br> -->
 <script src="https://tryhackme.com/badge/2577168"></script>
-
-<br>
 
 &nbsp;&emsp;[![linkedin](https://img.shields.io/badge/linkedin-0a66c2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ademavsar/)&nbsp;&emsp;[![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github)](https://tryhackme.com/p/avsar)&nbsp;&emsp;[![letsdefend](https://img.shields.io/badge/letsdefend-335eea?style=for-the-badge&logo=cyberdefenders)](https://app.letsdefend.io/user/avsar)&nbsp;&emsp;[![tryhackme](https://img.shields.io/badge/tryhackme-212c42?style=for-the-badge&logo=tryhackme)](https://tryhackme.com/p/avsar)&nbsp;&emsp;
 
