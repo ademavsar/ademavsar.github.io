@@ -4,9 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![HELLO THERE](/obi.gif)
+<img src="/obi.gif" alt="HELLO THERE">
 
-<!-- 🔗 bağlantılar:<br> <img src="/obi.gif" alt="HELLO THERE"> -->
+<!-- 🔗 bağlantılar:<br> -->
 <script src="https://tryhackme.com/badge/2577168"></script>
 
 
