@@ -9,5 +9,4 @@ git commit -m "update"
 REM Değişiklikleri remote repository'e push eder
 git push
 
-echo okay beyb, it's done
-pause
+if %ERRORLEVEL% neq 0 pause
