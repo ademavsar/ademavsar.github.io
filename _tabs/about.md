@@ -4,11 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![gif](/assets/img/owk.gif)
-![gif]("/assets/img/owk.gif")
-<img src="/assets/img/owk.gif" alt="gif" width="300">
-
-
+![gif](https://raw.githubusercontent.com/ademavsar/ademavsar/main/owk.gif)
+<img src="https://raw.githubusercontent.com/ademavsar/ademavsar/main/owk.gif" alt="gif" width="300">
 
 
 <!-- 🔗 bağlantılar:<br>-->
