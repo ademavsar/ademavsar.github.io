@@ -3,10 +3,7 @@
 icon: fas fa-info-circle
 order: 4
 ---
-
-![gif](https://raw.githubusercontent.com/ademavsar/ademavsar/main/owk.gif)
-<img src="https://raw.githubusercontent.com/ademavsar/ademavsar/main/owk.gif" alt="gif" width="300">
-
+![HELLO THERE](https://raw.githubusercontent.com/ademavsar/ademavsar/main/owk.gif)
 
 <!-- 🔗 bağlantılar:<br>-->
 <script src="https://tryhackme.com/badge/2577168"></script>
