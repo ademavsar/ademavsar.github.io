@@ -3,9 +3,9 @@
 icon: fas fa-info-circle
 order: 4
 ---
-![HELLO THERE](https://raw.githubusercontent.com/ademavsar/ademavsar/main/owk.gif)
+![HELLO THERE](/assets/img/owk.gif)
 
-<img src="https://raw.githubusercontent.com/ademavsar/ademavsar/main/owk.gif" alt="HELLE THERE" style="width: 50%; float: left; margin-right: 10px;" />
+<img src="/assets/img/owk.gif" alt="HELLE THERE" style="width: 50%; float: left; margin-right: 10px;" />
 
 
 <!-- 🔗 bağlantılar:<br>-->
