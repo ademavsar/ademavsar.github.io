@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<iframe src="https://giphy.com/embed/Nx0rz3jtxtEre" width="360" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mrw-top-escalator-Nx0rz3jtxtEre"></a></p>
+<iframe src="https://giphy.com/embed/Nx0rz3jtxtEre" width="440" height="220" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mrw-top-escalator-Nx0rz3jtxtEre"></a></p>
 
 <!-- 🔗 bağlantılar:<br> -->
 <script src="https://tryhackme.com/badge/2577168"></script>
