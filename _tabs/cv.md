@@ -1,5 +1,5 @@
 ---
-title: güncel öz geçmiş
+title: cv
 icon: fas fa-download
 order: 5
 ---
