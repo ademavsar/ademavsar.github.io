@@ -2,5 +2,5 @@
 title: cv
 icon: fas fa-download
 order: 5
-redirect_to: "https://media.githubusercontent.com/media/ademavsar/ademavsar.github.io/main/assets/img/garfield.gif"
+redirect_to: "https://github.com/ademavsar/ademavsar.github.io/blob/main/assets/cv-v1.pdf"
 ---
