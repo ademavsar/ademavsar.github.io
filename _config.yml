@@ -77,7 +77,7 @@ img_cdn:
 # avatar: https://media4.giphy.com/media/8zYunr3Hg8XPq/giphy.gif?cid=ecf05e47hvx7opne7xlfkx1lz2md0qgyokw398f9x4l1iqp1&ep=v1_gifs_search&rid=giphy.gif&ct=g
 # avatar: /assets/img/rick.gif
 
-avatar: https://media.githubusercontent.com/media/ademavsar/ademavsar.github.io/main/assets/img/rick.gif
+avatar: https://i.giphy.com/13rQ7rrTrvZXlm.webp
 
 # boolean type, the global switch for TOC in posts.
 toc: true
