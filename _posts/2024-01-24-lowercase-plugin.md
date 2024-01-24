@@ -15,10 +15,12 @@ obsidian için bir eklenti yapmak, javascript ve obsidian api'sinin temel bilgis
 ## adım 1: geliştirme ortamını hazırlama
 
 1. **node.js ve npm yükleme**:
+
    - [node.js resmi web sitesine](https://nodejs.org/) gidin ve windows için uygun sürümü (genellikle lts sürümü) indirin
    - i̇ndirilen `.msi` dosyasını çalıştırarak kurulum sihirbazını takip edin
 
 2. **yeni bir proje oluşturma**:
+
    - bir klasör oluşturun (konumu önemli değil) ve bu klasörde terminal veya komut istemcisini açın
    - `npm init` komutunu çalıştırarak yeni bir npm projesi başlatın
 
@@ -52,7 +54,9 @@ obsidian için bir eklenti yapmak, javascript ve obsidian api'sinin temel bilgis
 bu adımları tamamladıktan sonra, <mark>package.json</mark> dosyan hazır olacak ve npm paketlerini yüklemeye başlayabilirsin.
 
 #### bunları bilmelisin
+
 - **package.json önemi**: <mark>package.json</mark> dosyası, projenin bağımlılıklarını, scriptlerini ve yapılandırma bilgilerini içerir. npm ve diğer geliştiriciler için projenin "kimliği" gibidir.
+
 - **bağımlılıklar**: projene yeni bir npm paketi eklemek istediğinde, <mark>npm install <paket_adı></mark> komutunu kullanarak bu paketi <mark>package.json</mark> dosyasına bağımlılık olarak ekleyebilirsin. bu, projenin başka bir yerde kullanılması durumunda gerekli paketlerin kolayca yüklenmesini sağlar.
 </details>
 
@@ -61,9 +65,11 @@ bu adımları tamamladıktan sonra, <mark>package.json</mark> dosyan hazır olac
 ## adım 2: obsidian api'ye bağlanma
 
 1. **obsidian api bağımlılığını yükleme**:
+
    - `npm install obsidian` komutunu kullanarak projene obsidian api ekleyin
 
 2. **typescript kurulumu** (opsiyonel ama önerilir):
+
    - `npm install typescript --save-dev` komutuyla typescript yükleyin
 
 <details>
@@ -74,12 +80,15 @@ typescript compiler'ın (tsc) sisteminde tanımlı olmadığını gösteriyor. b
 typescript compiler (tsc) yükleme
 
 1. **typescript'i global olarak yükleme**:
+
    - komut istemcisine `npm install -g typescript` yazarak typescript'i global olarak yükleyin. `-g` seçeneği, typescript'in tüm sistemde kullanılabilir olmasını sağlar.
 
 2. **yükleme sonrası kontrol**:
+
    - yükleme tamamlandıktan sonra, `tsc --version` komutunu çalıştırarak typescript compiler'ın başarıyla yüklendiğini ve versiyonunu kontrol edin.
 
 3. **typescript compiler'ı kullanma**:
+
    - typescript compiler yüklendikten sonra, `tsc main.ts` komutunu tekrar çalıştırarak `main.ts` dosyanızı javascript'e çevirebilirsin.
 
 alternatif çözüm: proje bazında typescript yükleme
@@ -87,12 +96,15 @@ alternatif çözüm: proje bazında typescript yükleme
 eğer typescript'i sadece belirli bir projede kullanmak istiyorsanız, projenin kök dizininde typescript'i yerel olarak yükleyebilirsin:
 
 1. **proje dizinine gitme**:
+
    - komut istemcisinde, typescript'i yüklemek istediğin projenin kök dizinine gidin.
 
 2. **yerel typescript yükleme**:
+
    - `npm install typescript --save-dev` komutunu kullanarak typescript'i projene yerel olarak yükleyin.
 
 3. **npm scriptleri kullanarak derleme**:
+
    - `package.json` dosyanızda bir npm scripti oluşturarak typescript dosyalarınızı derleyebilirsin. örneğin:
      ```json
      "scripts": {
@@ -102,7 +114,9 @@ eğer typescript'i sadece belirli bir projede kullanmak istiyorsanız, projenin 
    - daha sonra `npm run build` komutu ile typescript dosyalarınızı derleyebilirsin.
 
 bunları bilmelisin
+
 - **global vs. yerel yükleme**: typescript'i global olarak yüklemek, her projede ayrı ayrı yüklemekten daha pratik olabilir. ancak, farklı projelerde farklı typescript versiyonları kullanmanız gerekiyorsa, yerel yükleme daha uygun olabilir.
+
 - **yol (path) sorunları**: eğer `tsc` komutu hala tanınmıyorsa, sistem yolunuzda (path) bir sorun olabilir. bu durumda, typescript'in yüklendiği yolu sistemindeki yol değişkenlerine eklemen gerekebilir.
 
 </details>
@@ -110,9 +124,11 @@ bunları bilmelisin
 ## adım 3: eklenti kodunu yazma
 
 1. **main.ts dosyası oluşturma**:
+
    - projenin kök dizininde `main.ts` adında bir dosya oluşturun
 
 2. **eklenti kodunu yazma**:
+
    - aşağıdaki kodu `main.ts` dosyasına yapıştırın:
 
     ```javascript
@@ -138,9 +154,11 @@ bunları bilmelisin
 ## adım 4: eklentiyi derleme ve yükleme
 
 1. **typescript'i javascript'e derleme**:
+
    - `tsc main.ts` komutunu çalıştırarak typescript dosyasını javascript'e çevirin
 
 2. **eklenti dosyalarını obsidian'a yükleme**:
+
    - derlenmiş `main.js` dosyasını ve bir `manifest.json` dosyasını (bu dizinde oluşturun) içeren bir klasör oluşturun
    - `manifest.json` dosyasına eklentinin detaylarını (aşağıda bir örneği var) yazın
    - bu klasörü obsidian'ın eklenti klasörüne kopyalayın. bu klasör genellikle `obsidiankasayolu/.obsidian/plugins/` altında bulunur
@@ -148,17 +166,21 @@ bunları bilmelisin
 ## adım 5: eklentiyi test etme
 
 1. **obsidian'ı aç ve eklentiyi etkinleştir**:
+
    - obsidian'ı açın, ayarlar menüsünden eklentiler bölümüne gidin ve yeni eklediğin eklentiyi etkinleştirin
 
 2. **eklentiyi kullan**:
+
    - bir not açın, metin seçin ve eklentiyi test edin
 
 > ayarlar/kısayollar ya da komut paletinden (ctrl + p) kısayol atayabilirsin
 
 ### adım 6: hata ayıklama ve i̇yileştirme
+
 - eğer eklenti beklediğin gibi çalışmıyorsa, konsol hatalarını kontrol edin ve kodunuzda gerekli düzeltmeleri yapın
 
 ## manifest.json örneği
+
 ```json
 {
   "id": "lowercase-plugin",
