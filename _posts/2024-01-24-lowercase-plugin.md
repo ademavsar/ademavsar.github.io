@@ -57,7 +57,7 @@ bu adımları tamamladıktan sonra, <mark>package.json</mark> dosyan hazır olac
 
 - **package.json önemi**: <mark>package.json</mark> dosyası, projenin bağımlılıklarını, scriptlerini ve yapılandırma bilgilerini içerir. npm ve diğer geliştiriciler için projenin "kimliği" gibidir.
 
-- **bağımlılıklar**: projene yeni bir npm paketi eklemek istediğinde, <mark>npm install <paket_adı></mark> komutunu kullanarak bu paketi <mark>package.json</mark> dosyasına bağımlılık olarak ekleyebilirsin. bu, projenin başka bir yerde kullanılması durumunda gerekli paketlerin kolayca yüklenmesini sağlar.
+- **bağımlılıklar**: projene yeni bir npm paketi eklemek istediğinde, <mark>npm install</mark> komutunu kullanarak bu paketi <mark>package.json</mark> dosyasına bağımlılık olarak ekleyebilirsin. bu, projenin başka bir yerde kullanılması durumunda gerekli paketlerin kolayca yüklenmesini sağlar.
 </details>
 
 
