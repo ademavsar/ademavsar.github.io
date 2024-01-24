@@ -26,16 +26,16 @@ obsidian için bir eklenti yapmak, javascript ve obsidian api'sinin temel bilgis
 <details>
 <summary><strong><mark>npm init</mark> süreci:</strong></summary>
 
-`npm init` komutunu çalıştırdığımızda npm'nin bir `package.json` dosyası oluşturma sürecini başlattığını görüyoruz. `package.json` dosyası, projenin yapılandırma detaylarını içerir ve npm paketlerini yönetmek için kullanılır. i̇şte bu sürecin adımları:
+<mark>npm init</mark> komutunu çalıştırdığımızda npm'nin bir <mark>package.json</mark> dosyası oluşturma sürecini başlattığını görüyoruz. <mark>package.json</mark> dosyası, projenin yapılandırma detaylarını içerir ve npm paketlerini yönetmek için kullanılır. i̇şte bu sürecin adımları:
 
 
 1. **package name**: i̇lk olarak paket adını belirlemen gerekiyor. önerilen adı kabul etmek için enter tuşuna basabilir veya farklı bir ad yazabilirsin.
 
-2. **version**: daha sonra paketin başlangıç versiyonunu belirlemen istenecek. genellikle `1.0.0` varsayılan olarak önerilir.
+2. **version**: daha sonra paketin başlangıç versiyonunu belirlemen istenecek. genellikle <mark>1.0.0</mark> varsayılan olarak önerilir.
 
 3. **description**: paketin ne yaptığına dair kısa bir açıklama girebilirsin.
 
-4. **entry point**: bu, projenin ana dosyasını belirtir. eğer `main.ts` veya `main.js` kullanıyorsan, buraya bu dosyanın adını yazabilirsin.
+4. **entry point**: bu, projenin ana dosyasını belirtir. eğer <mark>main.ts</mark> veya <mark>main.js</mark> kullanıyorsan, buraya bu dosyanın adını yazabilirsin.
 
 5. **test command**: projen için bir test komutu varsa buraya yazabilirsin. henüz yoksa bu adımı boş bırakabilirsin.
 
@@ -47,13 +47,13 @@ obsidian için bir eklenti yapmak, javascript ve obsidian api'sinin temel bilgis
 
 9. **license**: projene hangi lisansın uygulanacağını burada belirtebilirsin. örneğin, açık kaynak bir proje için genellikle "mit" gibi bir lisans kullanılır.
 
-10. **is this ok?**: son olarak, npm sana oluşturduğu `package.json` dosyasının bir önizlemesini gösterecek ve onaylamanı isteyecek. her şey doğruysa, onaylamak için enter tuşuna basabilirsin.
+10. **is this ok?**: son olarak, npm sana oluşturduğu <mark>package.json</mark> dosyasının bir önizlemesini gösterecek ve onaylamanı isteyecek. her şey doğruysa, onaylamak için enter tuşuna basabilirsin.
 
-bu adımları tamamladıktan sonra, `package.json` dosyan hazır olacak ve npm paketlerini yüklemeye başlayabilirsin.
+bu adımları tamamladıktan sonra, <mark>package.json</mark> dosyan hazır olacak ve npm paketlerini yüklemeye başlayabilirsin.
 
 #### bunları bilmelisin
-- **package.json önemi**: `package.json` dosyası, projenin bağımlılıklarını, scriptlerini ve yapılandırma bilgilerini içerir. npm ve diğer geliştiriciler için projenin "kimliği" gibidir.
-- **bağımlılıklar**: projene yeni bir npm paketi eklemek istediğinde, `npm install <paket_adı>` komutunu kullanarak bu paketi `package.json` dosyasına bağımlılık olarak ekleyebilirsin. bu, projenin başka bir yerde kullanılması durumunda gerekli paketlerin kolayca yüklenmesini sağlar.
+- **package.json önemi**: <mark>package.json</mark> dosyası, projenin bağımlılıklarını, scriptlerini ve yapılandırma bilgilerini içerir. npm ve diğer geliştiriciler için projenin "kimliği" gibidir.
+- **bağımlılıklar**: projene yeni bir npm paketi eklemek istediğinde, <mark>npm install <paket_adı></mark> komutunu kullanarak bu paketi <mark>package.json</mark> dosyasına bağımlılık olarak ekleyebilirsin. bu, projenin başka bir yerde kullanılması durumunda gerekli paketlerin kolayca yüklenmesini sağlar.
 </details>
 
 
