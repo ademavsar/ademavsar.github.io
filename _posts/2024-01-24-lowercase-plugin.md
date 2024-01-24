@@ -53,7 +53,7 @@ obsidian için bir eklenti yapmak, javascript ve obsidian api'sinin temel bilgis
 
 bu adımları tamamladıktan sonra, <mark>package.json</mark> dosyan hazır olacak ve npm paketlerini yüklemeye başlayabilirsin.
 
-#### bunları bilmelisin
+bunları bilmelisin
 
 **package.json önemi**: <mark>package.json</mark> dosyası, projenin bağımlılıklarını, scriptlerini ve yapılandırma bilgilerini içerir. npm ve diğer geliştiriciler için projenin "kimliği" gibidir.
 
