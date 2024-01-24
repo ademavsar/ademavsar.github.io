@@ -154,6 +154,7 @@ bunları bilmelisin
    - bir not açın, metin seçin ve eklentiyi test edin
 
 > ayarlar/kısayollar ya da komut paletinden (ctrl + p) kısayol atayabilirsin
+
 ### adım 6: hata ayıklama ve i̇yileştirme
 - eğer eklenti beklediğin gibi çalışmıyorsa, konsol hatalarını kontrol edin ve kodunuzda gerekli düzeltmeleri yapın
 
@@ -172,4 +173,3 @@ bunları bilmelisin
   "css": "styles.css"
 }
 ```
-
