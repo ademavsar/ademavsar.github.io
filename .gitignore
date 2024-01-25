@@ -22,7 +22,6 @@ package-lock.json
 assets/js/dist
 
 gitpush.bat
-assets/
 
 # posts
 _posts/2024-01-25-.gitignore.md
