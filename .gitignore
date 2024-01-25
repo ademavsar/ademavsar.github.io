@@ -20,3 +20,10 @@ package-lock.json
 
 # Misc
 assets/js/dist
+
+gitpush.bat
+assets/
+
+# posts
+_posts/2024-01-25-.gitignore.md
+_posts/2024-01-25-anki kılavuz.md
