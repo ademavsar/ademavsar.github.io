@@ -14,7 +14,7 @@
 # - type: twitter
 #   icon: "fa-brands fa-x-twitter"
 
- - type: rss
+- type: rss
    icon: "fas fa-rss"
    noblank: true
 
