@@ -2,6 +2,11 @@
 title: otomatik ortam sıcaklığı kontrol sistemi
 categories: [proje]
 tags: [pic18f46k22]
+pin: true  # gönderinin veya sayfanın, listelerde üstte sabitlenip sabitlenmeyeceğini belirler.
+image:  # Gönderi veya sayfa ile ilişkili bir resmi tanımlar.
+  path: /assets/sources/auto temp control.png  # resmin yolu.
+  lqip:   # düşük kaliteli resim yer tutucusu (low quality image placeholder).
+  alt: project  # resmin alternatif metni, görüntüleyici resmi göremediğinde gösterilir.
 ---
 
 ## proje hakkında
