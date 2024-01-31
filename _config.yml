@@ -75,7 +75,7 @@ img_cdn:
 # the avatar on sidebar, support local or CORS resources
 # avatar: /assets/img/512x512.jpg
 # avatar: https://media.githubusercontent.com/media/ademavsar/ademavsar.github.io/main/assets/img/garfield.gif
-avatar: /assets/img/rick.gif
+avatar: https://media.githubusercontent.com/media/ademavsar/ademavsar.github.io/main/assets/img/rick.gif
 
 # boolean type, the global switch for TOC in posts.
 toc: true
