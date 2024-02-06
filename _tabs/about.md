@@ -4,7 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 ![GAZİ MUSTAFA KEMAL ATATÜRK](/assets/img/1500x500.jpg)
-> "hiçbir şeye ihtiyacımız yok, yalnız bir şeye ihtiyacımız vardır: çalışkan olmak"
 
 <script src="https://tryhackme.com/badge/2577168"></script>
 
