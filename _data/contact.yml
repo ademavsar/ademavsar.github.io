@@ -3,9 +3,9 @@
 - type: github
   icon: "fab fa-github"
 
-# - type: linkedin
-#   icon: "fab fa-linkedin"
-#   url: https://www.linkedin.com/in/ademavsar/
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: https://www.linkedin.com/in/ademavsar/
 
 # - type: whatsapp
 #   icon: "fab fa-whatsapp"
