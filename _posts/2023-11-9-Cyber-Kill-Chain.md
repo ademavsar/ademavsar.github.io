@@ -5,7 +5,7 @@ tags: [cyber kill chain]     ## tag names should always be lowercase
 ---
 
 ## giriş
-<img src="/assets/images/cyberkillchain.png" alt="cyber kill chain">
+<img src="/assets/attachment/cyberkillchain.png" alt="cyber kill chain">
 
 siber güvenlik dünyasında "cyber kill chain" (siber öldürme zinciri) kavramı, kötü niyetli bir saldırının evrelerini tanımlamak için kullanılır. bu model, saldırıların nasıl gerçekleştiğini anlamak ve önlem almak için bir çerçeve sunar.
 

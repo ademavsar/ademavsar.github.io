@@ -3,9 +3,9 @@
 icon: fas fa-info-circle
 order: 4
 ---
-![GAZİ MUSTAFA KEMAL ATATÜRK](/assets/img/1500x500.jpg)
+<!--![GAZİ MUSTAFA KEMAL ATATÜRK](/assets/img/1500x500.jpg)--> 
 
-bildiği yoldan değil bilmediği yoldan giden, meraklı, genç bir mühendis.
+bildiği yoldan değil, bilmediği yoldan giden; meraklı, genç bir mühendis.
 
 mühendislik bir kültür, bir yaşam biçimidir. araştırmayı, yorumlamayı, öğrenmeyi öğretir. sürekli büyüyen bir tutku, hayatı daha iyi anlamlandırma sanatı ve bitmeyen bir öğrenme yolculuğudur. 
 
