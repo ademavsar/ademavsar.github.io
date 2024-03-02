@@ -8,6 +8,7 @@ image:
   lqip: 
   alt: moyi
 ---
+
 # moyi: minimal video flascard app
 dil öğrenimim için anki ve benzeri flascard uygulamalarında videolu flashcard'lar oluşturamayınca (bu uygulamalar böyle bir çalışma için sizi çok sınırlıyor) basit bir çözüm olarak moyi'yi geliştirdim. 
 
@@ -34,34 +35,34 @@ moyi'yi çalıştırmak için aşağıdaki araçların yüklü olması gerekir:
 ## kurulum
 1. projeyi klonlayın:
 
-```
+```bash
 git clone https://github.com/ademavsar/moyi
 ```
 
 2. proje dizinine gidin:
 
-```
+```bash
 cd moyi
 ```
 
 3. gerekli python paketlerini yükleyin:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 4. uygulamayı çalıştırın:
 
-```
+```bash
 python moyi.py
 ```
 
 veya ``moyi.py``'yi çalıştırın.
 ## kullanım
-moyi.py dosyasını çalıştırdıktan sonra http://127.0.0.1:5000 adresine gidin. önceki/sonraki video butonları, alt yazı metnini göster/gizle butonu, önceki/sonraki alt yazıya geçiş butonları ve iki adet daha buton göreceksiniz. 
+moyi.py dosyasını çalıştırdıktan sonra ``http://127.0.0.1:5000`` adresine gidin. önceki/sonraki video butonları, alt yazı metnini göster/gizle butonu, önceki/sonraki alt yazıya geçiş butonları ve iki adet daha buton göreceksiniz. 
 
 o videoflashcard sizin için tamamsa "green", değilse ve daha sonra görmek için "red" butona tıklayın.
 
 oldukça basit. iyi çalışmalar.
 ## not
-modern tarayıcılardaki otomatik media oynatma politikası, uygulama için problem çıkarabilir. site (http://127.0.0.1:5000) ayarlarını düzgün yapılandırdığınızdan emin olun!
+modern tarayıcılardaki otomatik media oynatma politikası, uygulama için problem çıkarabilir. site (``http://127.0.0.1:5000``) ayarlarını düzgün yapılandırdığınızdan emin olun!
