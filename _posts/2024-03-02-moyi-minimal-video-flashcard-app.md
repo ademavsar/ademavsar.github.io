@@ -5,7 +5,7 @@ tags: [app, python]
 pin: true
 ---
 
-![demo](/assets/attachment/moyi.gif)
+![demo](https://media.githubusercontent.com/media/ademavsar/ademavsar.github.io/main/assets/attachment/moyi.gif)
 
 # [moyi: minimal video flascard app](https://github.com/ademavsar/moyi)
 dil öğrenimim için anki ve benzeri flascard uygulamalarında videolu flashcard'lar oluşturamayınca (bu uygulamalar böyle bir çalışma için sizi çok sınırlıyor) basit bir çözüm olarak moyi'yi geliştirdim. 
