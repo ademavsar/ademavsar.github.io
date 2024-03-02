@@ -1,15 +1,13 @@
 ---
-title: moyi | minimal video flascard app
+title: moyi
 categories: [project]
 tags: [app, python]
 pin: true
-image:
-  path: /assets/attachment/moyi.png
-  lqip: 
-  alt: moyi
 ---
 
-# moyi: minimal video flascard app
+![demo](/assets/attachment/moyi.gif)
+
+# [moyi: minimal video flascard app](https://github.com/ademavsar/moyi)
 dil öğrenimim için anki ve benzeri flascard uygulamalarında videolu flashcard'lar oluşturamayınca (bu uygulamalar böyle bir çalışma için sizi çok sınırlıyor) basit bir çözüm olarak moyi'yi geliştirdim. 
 
 desteleri oluşturmak için yazdığım **[split-video-by-srt-using-ffmpeg](https://github.com/ademavsar/split-video-by-srt-using-ffmpeg)** scripti ile video bölümleme yapabilir ve oluşturduğunuz dosyaları "deck" klasörüne taşıyarak kendi çalışma destenizi oluşturabilirsiniz.
@@ -17,9 +15,6 @@ desteleri oluşturmak için yazdığım **[split-video-by-srt-using-ffmpeg](http
 moyi, video içerikli flashcard'lar aracılığıyla dil öğrenmeyi eğlenceli ve etkili bir hale getiren, yerel sunucuda çalışan basit bir uygulamadır. 
 
 öğrenim sürecinizi görsel ve işitsel materyallerle zenginleştirerek dil öğrenim metodolojinizi çok daha üst seviyelere çıkarabilirsiniz.
-
-## demo
-![demo](/assets/attachment/moyi.mp4)
 
 ## özellikler
 - kendi videolarınız ve alt yazılarınızla özelleştirilebilir dil öğrenme deneyimi
