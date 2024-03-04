@@ -3,6 +3,10 @@ title: moyi
 categories: [project]
 tags: [app, python]
 pin: true
+image:  # Gönderi veya sayfa ile ilişkili bir resmi tanımlar.
+  path: /assets/attachment/moyi.png  # resmin yolu.
+  lqip:   # düşük kaliteli resim yer tutucusu (low quality image placeholder).
+  alt: moyi  # resmin alternatif metni, görüntüleyici resmi göremediğinde gösterilir.
 ---
 
 ![demo](https://media.githubusercontent.com/media/ademavsar/ademavsar.github.io/main/assets/attachment/moyi.gif)
