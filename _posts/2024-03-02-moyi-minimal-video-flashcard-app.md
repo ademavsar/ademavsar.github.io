@@ -4,7 +4,7 @@ categories: [project]
 tags: [app, python]
 pin: true
 image:  # Gönderi veya sayfa ile ilişkili bir resmi tanımlar.
-  path: /assets/attachment/moyi.png  # resmin yolu.
+  path: /assets/img/moyi_cover.png  # resmin yolu.
   lqip:   # düşük kaliteli resim yer tutucusu (low quality image placeholder).
   alt: moyi  # resmin alternatif metni, görüntüleyici resmi göremediğinde gösterilir.
 ---
