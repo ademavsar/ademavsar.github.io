@@ -10,9 +10,9 @@
 }
 
 /* İçerik stili */
-.custom-drawer {
+.custom-drawer {}
 
-  /* drawer sonrasındaki metinler ile aradaki boşluk */
+/* drawer sonrasındaki metinler ile aradaki boşluk */
 .custom-drawer + p,
 .custom-drawer + h1,
 .custom-drawer + h2,
@@ -25,7 +25,7 @@
 .custom-drawer + code,
 .custom-drawer + pre,
 .custom-drawer + blockquote {
-  margin-top: 1em; /* drawer sonrasındaki başlıklar, paragraflar, görseller, ve kod blokları ile boşluk */
+  margin-top: 1em; /* drawer sonrasındaki başlıklar, paragraflar, görseller ve kod blokları ile boşluk */
 }
 
 /* Sosyal medya simgelerini ortalama */
@@ -34,7 +34,7 @@
   justify-content: center;
 }
 
-/* Noktayı kaldırmak için 
+/* Noktayı kaldırmak için
 .icon-border {
   display: none;
 } */

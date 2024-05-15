@@ -7,17 +7,20 @@
   icon: "fab fa-linkedin"
   url: https://www.linkedin.com/in/ademavsar/
   custom_class: linkedin
+  color: "#0077b5" # LinkedIn mavisi
 
 - type: email
   icon: "fas fa-envelope"
   url: mailto:your-email@example.com
   custom_class: email
+  color: "#D44638" # Email kırmızısı
   noblank: true # open link in current tab
 
 - type: rss
   icon: "fas fa-rss"
   url: /feed.xml
   custom_class: rss
+  color: "#FFA500" # RSS turuncusu
   noblank: true
 
 # Uncomment and complete the url below to enable more contact options
