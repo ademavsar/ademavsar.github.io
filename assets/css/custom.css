@@ -1,15 +1,18 @@
 /* Başlık stili */
 .custom-summary {
-  color: #3498DB;
-  font-weight: bold
+  color: #8ab4f8; /* Normal renk */
+  font-weight: 500; /* Daha hafif yazı kalınlığı */
+  transition: color 0.3s; /* Renk geçişi için animasyon */
+}
+
+.custom-summary:hover {
+  color: #d2603a; /* Hover durumundaki renk */
 }
 
 /* İçerik stili */
 .custom-drawer {
-  /*margin-bottom: 1em; /* Alt satırdaki metinler ile mesafeyi artırır */
-}
 
-/* drawer sonrasındaki metinler ile aradaki boşluk */
+  /* drawer sonrasındaki metinler ile aradaki boşluk */
 .custom-drawer + p,
 .custom-drawer + h1,
 .custom-drawer + h2,
@@ -18,6 +21,35 @@
 .custom-drawer + h5,
 .custom-drawer + h6,
 .custom-drawer + img,
-.custom-drawer + div {
-  margin-top: 1em; /* drawer sonrasındaki başlıklar, paragraflar ve görseller ile boşluk */
+.custom-drawer + div,
+.custom-drawer + code,
+.custom-drawer + pre,
+.custom-drawer + blockquote {
+  margin-top: 1em; /* drawer sonrasındaki başlıklar, paragraflar, görseller, ve kod blokları ile boşluk */
+}
+
+/* Sosyal medya simgelerini ortalama */
+.sidebar-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+/* Noktayı kaldırmak için 
+.icon-border {
+  display: none;
+} */
+
+/* LinkedIn simgesi için özel renk */
+.sidebar-bottom a.linkedin i {
+  color: #0077b5; /* LinkedIn mavisi */
+}
+
+/* RSS simgesi için özel renk */
+.sidebar-bottom a.rss i {
+  color: #ff6600; /* RSS turuncusu */
+}
+
+/* Mail simgesi için özel renk */
+.sidebar-bottom a.email i {
+  color: #0078d4; /* Outlook mavisi */
 }

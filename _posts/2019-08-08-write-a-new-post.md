@@ -1,5 +1,6 @@
 ---
-title: Writing a New Post
+title: Chirpy'de Yazı Yazma Rehberi
+description: Bu rehber, _Chirpy_ şablonunda yazı yazmayı adım adım gösterecek. Jekyll kullanmış olsanız bile okumanız faydalıdır çünkü birçok özellik özel değişkenler gerektirir.
 author: 
 date: 2019-08-08 14:10:00 +0800
 categories: [Blogging, Tutorial]
@@ -7,11 +8,9 @@ tags: [writing]
 render_with_liquid: false
 ---
 
-Bu rehber, _Chirpy_ şablonunda bir yazı nasıl yazılacağını adım adım gösterecek ve Jekyll kullanmış olsanız bile okumanız faydalı olacak, çünkü birçok özellik özel değişkenlerin ayarlanmasını gerektiriyor.
-
 ## İsimlendirme ve Yol
 
-Yeni bir dosya oluşturun adını `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} koyun ve kök dizindeki `_posts`{: .filepath} içine yerleştirin. Lütfen `EXTENSION`{: .filepath} uzantısının ya `md`{: .filepath} ya da `markdown`{: .filepath} olması gerektiğini unutmayın. Dosya oluşturma sürecinden zaman kazanmak istiyorsanız, [`Jekyll-Compose`](https://github.com/jekyll/jekyll-compose) eklentisini kullanmayı düşünün.
+Yeni bir dosya oluşturun, adını `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} koyun ve kök dizindeki `_posts`{: .filepath} içine yerleştirin. Lütfen `EXTENSION`{: .filepath} uzantısının `md`{: .filepath} veya `markdown`{: .filepath} olması gerektiğini unutmayın. Dosya oluşturma sürecinden zaman kazanmak istiyorsanız, [`Jekyll-Compose`](https://github.com/jekyll/jekyll-compose) eklentisini kullanmayı düşünün.
 
 ## Front Matter
 
@@ -70,10 +69,8 @@ authors: [<author1_id>, <author2_id>]   # birden fazla giriş için
 
 Bununla birlikte, `author` anahtarı birden fazla girişi tanımlayabilir.
 
-> `_data/authors.yml`{: .filepath } dosyasından yazar bilgilerini okumanın faydası, sayfada `twitter:creator` meta etiketinin olmasıdır, bu da [Twitter Kartları](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started#card-and-content-attribution) için iyi olur ve SEO açısından faydalıdır.
-{: .
-
-prompt-info }
+> `_data/authors.yml`{: .filepath} dosyasından yazar bilgilerini okumanın faydası, sayfada `twitter:creator` meta etiketinin olmasıdır, bu da [Twitter Kartları](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started#card-and-content-attribution) için iyidir ve SEO açısından faydalıdır.
+{: .prompt-info }
 
 ### Yazı Tanımı
 
@@ -158,8 +155,7 @@ $$
 3. \$$ LaTeX_math_expression $$
 ```
 
-> `v7.0.0` itibarıyla, **MathJax** yapılandırma seçenekleri `assets/js/data/mathjax.js`{: .filepath } dosyasına taşındı ve ihtiyaca göre değiştirilebilir, örneğin [eklentiler][mathjax-exts] ekleyebilirsiniz.
-> Eğer siteyi `chirpy-starter` üzerinden inşa ediyorsanız, bu dosyayı gem kurulum dizininden (komutla `bundle info --path jekyll-theme-chirpy` kontrol edin) aynı dizine kopyalayın.
+> `v7.0.0` itibarıyla, **MathJax** yapılandırma seçenekleri `assets/js/data/mathjax.js`{: .filepath} dosyasına taşındı ve ihtiyaca göre değiştirilebilir, örneğin [eklentiler][mathjax-exts] ekleyebilirsiniz. Eğer siteyi `chirpy-starter` üzerinden inşa ediyorsanız, bu dosyayı gem kurulum dizininden (komutla `bundle info --path jekyll-theme-chirpy` kontrol edin) aynı dizine kopyalayın.
 {: .prompt-tip }
 
 [mathjax-exts]: https://docs.mathjax.org/en/latest/input/tex/extensions/index.html
@@ -200,7 +196,9 @@ Sayfa içeriği düzeninin resim yüklendiğinde kaymasını önlemek için, her
 > Bir SVG için, en azından _genişliğini_ belirtmelisiniz, aksi takdirde görüntülenmez.
 {: .prompt-info }
 
-_Chirpy v5.0.0_'dan itibaren, `height` ve `width` kısaltmaları (`height` → `h`, `width` → `w`) destekler. Yukarıdaki örnekle aynı etkiye sahip aşağıdaki örneğe bakın:
+_Ch
+
+irpy v5.0.0_'dan itibaren, `height` ve `width` kısaltmaları (`height` → `h`, `width` → `w`) destekler. Yukarıdaki örnekle aynı etkiye sahip aşağıdaki örneğe bakın:
 
 ```markdown
 ![Masaüstü Görünümü](/assets/img/sample/mockup.png){: w="700" h="400" }
@@ -257,9 +255,7 @@ Program penceresinin ekran görüntülerinin gölge efekti göstermesi düşün�
 
 ### CDN URL
 
-Medya kaynaklarını CDN üzerinde barındırıyorsanız, CDN URL'ini tekrar tekrar yazma zamanından
-
- tasarruf edebilirsiniz, `_config.yml`{: .filepath} dosyasındaki `cdn` değişkenini atayarak:
+Medya kaynaklarını CDN üzerinde barındırıyorsanız, CDN URL'ini tekrar tekrar yazma zamanından tasarruf edebilirsiniz, `_config.yml`{: .filepath} dosyasındaki `cdn` değişkenini atayarak:
 
 ```yaml
 cdn: https://cdn.com
@@ -286,7 +282,7 @@ Ayrıştırma sonucu, resim yolunun önüne otomatik olarak CDN öneki `https://
 
 Bir yazı birçok resim içerdiğinde, medya kaynaklarının yolunu tekrar tekrar tanımlamak zaman alıcı bir iş olacaktır. Bunu çözmek için, bu yolu yazının YAML bloğunda tanımlayabiliriz:
 
-```yml
+```yaml
 ---
 media_subpath: /img/yol/
 ---
@@ -304,7 +300,7 @@ Ardından, Markdown resim kaynağını doğrudan dosya adıyla yazabilirsiniz:
 ```html
 <img src="/img/yol/flower.png" alt="Çiçek" />
 ```
-{: .nolineno }
+{: .nolineno}
 
 ### Önizleme Resmi
 
@@ -384,9 +380,7 @@ Birkaç tür ipucu vardır: `tip`, `info`, `warning` ve `danger`. Bunlar, alınt
 ### Dosya Yolu Vurgulama
 
 ```md
-`/path
-
-/to/a/file.extend`{: .filepath}
+`/path/to/a/file.extend`{: .filepath}
 ```
 {: .nolineno }
 
@@ -469,7 +463,9 @@ Aşağıdaki tablo, verilen bir video URL'sinde ihtiyacımız olan iki parametre
 | -------------------------------------------------------------------------------------------------- | ---------- | :------------- |
 | [https://www.**youtube**.com/watch?v=**H-B46URT4mg**](https://www.youtube.com/watch?v=H-B46URT4mg) | `youtube`  | `H-B46URT4mg`  |
 | [https://www.**twitch**.tv/videos/**1634779211**](https://www.twitch.tv/videos/1634779211)         | `twitch`   | `1634779211`   |
-| [https://www.**bilibili**.com/video/**BV1Q44y1B7Wf**](https://www.bilibili.com/video/BV1Q44y1B7Wf) | `bilibili` | `BV1Q44y1B7Wf` |
+| [https://www.**bilibili**.com/video/**BV1Q44y1B7Wf**
+
+](https://www.bilibili.com/video/BV1Q44y1B7Wf) | `bilibili` | `BV1Q44y1B7Wf` |
 
 ### Video Dosyası
 
@@ -505,8 +501,7 @@ Tüm yukarıdakileri kullanan bir örneği düşünün:
 %}
 ```
 
-> Video dosyalarını `assets` klasöründe barındırmak önerilmez çünkü PWA tarafından önbelleğe alınamazlar ve sorunlara neden olabilirler.
-> Bunun yerine, video dosyalarını barındırmak için CDN kullanın. Alternatif olarak, PWA'dan ( `_config.yml` dosyasındaki `pwa.deny_paths` ayarına bakın) hariç tutulan ayrı bir klasör kullanın.
+> Video dosyalarını `assets` klasöründe barındırmak önerilmez çünkü PWA tarafından önbelleğe alınamazlar ve sorunlara neden olabilirler. Bunun yerine, video dosyalarını barındırmak için CDN kullanın. Alternatif olarak, PWA'dan ( `_config.yml` dosyasındaki `pwa.deny_paths` ayarına bakın) hariç tutulan ayrı bir klasör kullanın.
 {: .prompt-warning }
 
 ## Sesler
@@ -537,8 +532,7 @@ Tüm yukarıdakileri kullanan bir örneği düşünün:
 %}
 ```
 
-> Ses dosyalarını `assets` klasöründe barındırmak önerilmez çünkü PWA tarafından önbelleğe alınamazlar ve sorunlara neden olabilirler.
-> Bunun yerine, ses dosyalarını barındırmak için CDN kullanın. Alternatif olarak, PWA'dan hariç tutulan ayrı bir klasör kullanın ( `_config.yml` dosyasındaki `pwa.deny_paths` ayarına bakın).
+> Ses dosyalarını `assets` klasöründe barındırmak önerilmez çünkü PWA tarafından önbelleğe alınamazlar ve sorunlara neden olabilirler. Bunun yerine, ses dosyalarını barındırmak için CDN kullanın. Alternatif olarak, PWA'dan hariç tutulan ayrı bir klasör kullanın ( `_config.yml` dosyasındaki `pwa.deny_paths` ayarına bakın).
 {: .prompt-warning }
 
 ## Daha Fazla Bilgi
