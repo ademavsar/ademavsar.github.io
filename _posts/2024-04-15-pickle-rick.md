@@ -1,16 +1,16 @@
 ---
 title: Pickle Rick
+description: A Rick and Morty CTF. Help turn Rick back into a human!
 categories: [CTF]
 tags: [tryhackme]    #tags always lowercase
 image:  # Gönderi veya sayfa ile ilişkili bir resmi tanımlar.
-  path: https://media.githubusercontent.com/media/ademavsar/ademavsar.github.io/main/assets/attachment/picklerick.gif  # resmin yolu.
+  path: https://raw.githubusercontent.com/ademavsar/ademavsar.github.io/master/assets/attachment/picklerick.gif  # resmin yolu.
   lqip:   # düşük kaliteli resim yer tutucusu (low quality image placeholder).
   alt: Pickle Rick  # resmin alternatif metni, görüntüleyici resmi göremediğinde gösterilir.
 
 ---
-*A Rick and Morty CTF. Help turn Rick back into a human!*
 
-TryHackMe'deki ilk CTF maceram; kendini yine turşuya çeviren Rick'i normale döndürmek için Rick'in bilgisayarına sızıp, iksiri tamamlamak için gereken üç gizli malzemeyi bulmayı içeriyordu.
+TryHackMe'deki ilk CTF maceramda, Rick'in bilgisayarına sızarak kendini turşuya çeviren Rick'i normale döndürmek için iksiri tamamlamak üzere üç gizli malzemeyi bulmam gerekiyordu.
 
 [![pickle rick](/assets/attachment/pickle-rick-01.png)](https://tryhackme.com/r/room/picklerick)
 

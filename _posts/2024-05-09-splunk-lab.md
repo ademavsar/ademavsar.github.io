@@ -1,18 +1,19 @@
 ---
 title: Splunk Universal Forwarder
+description: Sanal Windows 10 agent makinemiz üzerinden log toplayacağız.
 categories: [LAB]
 tags: [splunk]
 pin: false
 ---
-
-[Splunk Enterprise 9.2.1](https://www.splunk.com/en_us/download/splunk-enterprise.html) ve [Splunk Universal Forwarder 9.2.1](https://www.splunk.com/en_us/download/universal-forwarder.html) kurulumları gerçekleştirerek, Windows 10 işletim sistemine sahip agent makinemiz üzerinden log toplama işlemi yapacağız.
+[Splunk Enterprise 9.2.1](https://www.splunk.com/en_us/download/splunk-enterprise.html)
+[Splunk Universal Forwarder 9.2.1](https://www.splunk.com/en_us/download/universal-forwarder.html)
 
 ## Başlamadan Önce
 
-- Windows Defender devre dışı bırakılmalı
-- Windows Update devre dışı bırakılmalı
-- Windows Defender Güvenlik Duvarı devre dışı bırakılmalı
-- Wecsvs (Windows Event Collector) hizmeti başlatılmalı
+- **Windows Defender** devre dışı bırakalım
+- **Windows Update** devre dışı bırakalım
+- **Windows Defender Güvenlik Duvarı** devre dışı bırakalım
+- **Wecsvs** (Windows Event Collector) hizmetini *görev yöneticisi üzerinden* başlatalım
 
 Splunk Enterprise kurulumu tamamlandıktan sonra Microsoft Windows için özel bir eklenti olan Splunk Add-on for Microsoft Windows yükleyeceğiz. Bu eklenti (splunk-add-on-for-microsoft-windows_880.tgz), her iki makinede de kullanılacak.
 

@@ -1,0 +1,23 @@
+/* Başlık stili */
+.custom-summary {
+  color: #3498DB;
+  font-weight: bold
+}
+
+/* İçerik stili */
+.custom-drawer {
+  /*margin-bottom: 1em; /* Alt satırdaki metinler ile mesafeyi artırır */
+}
+
+/* drawer sonrasındaki metinler ile aradaki boşluk */
+.custom-drawer + p,
+.custom-drawer + h1,
+.custom-drawer + h2,
+.custom-drawer + h3,
+.custom-drawer + h4,
+.custom-drawer + h5,
+.custom-drawer + h6,
+.custom-drawer + img,
+.custom-drawer + div {
+  margin-top: 1em; /* drawer sonrasındaki başlıklar, paragraflar ve görseller ile boşluk */
+}
