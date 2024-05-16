@@ -9,13 +9,13 @@ pin: false
 [Splunk Universal Forwarder 9.2.1](https://www.splunk.com/en_us/download/universal-forwarder.html)
 
 ## Başlamadan Önce
-
+Sorun yaşamamak için:
 - **Windows Defender** devre dışı bırakalım
 - **Windows Update** devre dışı bırakalım
 - **Windows Defender Güvenlik Duvarı** devre dışı bırakalım
-- **Wecsvs** (Windows Event Collector) hizmetini *görev yöneticisi üzerinden* başlatalım
+- **Wecsvs** (Windows Event Collector) hizmetini <mark>görev yöneticisi üzerinden</mark> başlatalım
 
-Splunk Enterprise kurulumu tamamlandıktan sonra Microsoft Windows için özel bir eklenti olan Splunk Add-on for Microsoft Windows yükleyeceğiz. Bu eklenti (splunk-add-on-for-microsoft-windows_880.tgz), her iki makinede de kullanılacak.
+Splunk Enterprise kurulumu tamamlandıktan sonra Microsoft Windows için özel bir eklenti olan Splunk Add-on for Microsoft Windows yükleyeceğiz. Bu eklenti (<mark>splunk-add-on-for-microsoft-windows_880.tgz</mark>), her iki makinede de kullanılacak.
 
 ## Splunk Enterprise
 

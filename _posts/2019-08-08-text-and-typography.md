@@ -114,6 +114,10 @@ Bu, `Satır İçi Kod` örneğidir.
 
 <kbd>OK</kbd> <kbd>Cancel</kbd>
 
+## Vurgu
+
+erkan <mark>enaktarlar goltuğun altında kalık</mark> beni ara
+
 ## Kod Blokları
 
 ### Genel
