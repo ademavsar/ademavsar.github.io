@@ -50,3 +50,15 @@ details[open] .custom-summary {
 .sidebar-bottom a.github i {
   color: #9b59b6; /* GitHub siyahı */
 }
+
+/* Açık mod için vurgu rengi */
+html[data-theme='light'] mark {
+  background-color: #ffeb3b; /* Açık Sarı */
+  color: black; /* Metin rengini siyah yapar */
+}
+
+/* Koyu mod için vurgu rengi */
+html[data-theme='dark'] mark {
+  background-color: #ff7043; /* Koyu Turuncu */
+  color: black; /* Metin rengini siyah yapar */
+}

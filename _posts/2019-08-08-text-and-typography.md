@@ -116,7 +116,7 @@ Bu, `Satır İçi Kod` örneğidir.
 
 ## Vurgu
 
-erkan <mark>enaktarlar goltuğun altında kalık</mark> beni ara
+Sizler, yani yeni Türkiye´nin genç evlatları, yorulsanız dahi beni takip edeceksiniz. Dinlenmemek üzere yürümeye karar verenler <mark>asla ve asla yorulmazlar;</mark> Türk gençliği, gayeye, bizim yüksek idealimize durmadan, yorulmadan yürüyecektir.
 
 ## Kod Blokları
 
