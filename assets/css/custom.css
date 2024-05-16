@@ -1,7 +1,7 @@
 /* Başlık stili */
 .custom-summary {
   color: #8ab4f8; /* Normal renk */
-  font-weight: 500; /* Daha hafif yazı kalınlığı */
+  font-weight: 525; /* Daha hafif yazı kalınlığı */
   transition: color 0.3s; /* Renk geçişi için animasyon */
 }
 
@@ -28,17 +28,6 @@
   margin-top: 1em; /* drawer sonrasındaki başlıklar, paragraflar, görseller ve kod blokları ile boşluk */
 }
 
-/* Sosyal medya simgelerini ortalama */
-.sidebar-bottom {
-  display: flex;
-  justify-content: center;
-}
-
-/* Noktayı kaldırmak için
-.icon-border {
-  display: none;
-} */
-
 /* LinkedIn simgesi için özel renk */
 .sidebar-bottom a.linkedin i {
   color: #0077b5; /* LinkedIn mavisi */
@@ -52,4 +41,9 @@
 /* Mail simgesi için özel renk */
 .sidebar-bottom a.email i {
   color: #0078d4; /* Outlook mavisi */
+}
+
+/* GitHub simgesi için özel renk */
+.sidebar-bottom a.github i {
+  color: #9b59b6; /* GitHub siyahı */
 }

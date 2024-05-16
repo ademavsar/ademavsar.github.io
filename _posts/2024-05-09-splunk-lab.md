@@ -5,7 +5,7 @@ categories: [LAB]
 tags: [splunk]
 pin: false
 ---
-[Splunk Enterprise 9.2.1](https://www.splunk.com/en_us/download/splunk-enterprise.html)
+[Splunk Enterprise 9.2.1](https://www.splunk.com/en_us/download/splunk-enterprise.html)&nbsp;&emsp;
 [Splunk Universal Forwarder 9.2.1](https://www.splunk.com/en_us/download/universal-forwarder.html)
 
 ## Başlamadan Önce
