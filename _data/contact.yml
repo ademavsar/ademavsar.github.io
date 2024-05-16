@@ -1,13 +1,13 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
-  custom_class: github
-
 - type: linkedin
   icon: "fab fa-linkedin"
   url: https://www.linkedin.com/in/ademavsar/
   custom_class: linkedin
+
+- type: github
+  icon: "fab fa-github"
+  custom_class: github
 
 - type: email
   icon: "fas fa-envelope"

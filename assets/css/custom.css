@@ -1,12 +1,15 @@
-/* Başlık stili */
-.custom-summary {
-  color: #8ab4f8; /* Normal renk */
-  font-weight: 525; /* Daha hafif yazı kalınlığı */
-  transition: color 0.3s; /* Renk geçişi için animasyon */
+/* Light mode */
+html[data-theme='light'] .custom-summary {
+  color: black !important;
 }
 
-.custom-summary:hover {
-  color: #d2603a; /* Hover durumundaki renk */
+/* Dark mode */
+html[data-theme='dark'] .custom-summary {
+  color: #f08c00 !important;
+}
+
+details[open] .custom-summary {
+  color: #d2603a; /* Açık durumda renk */
 }
 
 /* İçerik stili */
