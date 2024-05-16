@@ -73,18 +73,15 @@
   
   <!-- 3rd-party Dependencies -->
   {% if site.toc and page.toc %}
-    <!-- Liquid variable issues -->
     <link rel="stylesheet" href="{{ site.origin.type.toc | relative_url }}">
   {% endif %}
   
   {% if page.layout == 'post' or page.layout == 'page' or page.layout == 'home' %}
-    <!-- Liquid variable issues -->
     <link rel="stylesheet" href="{{ site.origin.type['lazy-polyfill'] | relative_url }}">
   {% endif %}
   
   {% if page.layout == 'page' or page.layout == 'post' %}
     <!-- Image Popup -->
-    <!-- Liquid variable issues -->
     <link rel="stylesheet" href="{{ site.origin.type.glightbox | relative_url }}">
   {% endif %}
   
