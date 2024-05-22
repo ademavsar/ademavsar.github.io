@@ -1,6 +1,6 @@
 ---
 title: Chirpy'de Yazı Yazma Rehberi
-description: Bu rehber, _Chirpy_ şablonunda yazı yazmayı adım adım gösterecek. Jekyll kullanmış olsanız bile okumanız faydalıdır çünkü birçok özellik özel değişkenler gerektirir.
+description: Bu rehber, Chirpy şablonunda yazı yazmayı adım adım gösterecek.
 author: 
 date: 2019-08-08 14:10:00 +0800
 categories: [Blogging, Tutorial]
@@ -459,11 +459,11 @@ Burada `Platform`, platform adının küçük harflidir ve `ID`, video ID'sidir.
 
 Aşağıdaki tablo, verilen bir video URL'sinde ihtiyacımız olan iki parametreyi nasıl alacağımızı gösterir ve ayrıca şu anda desteklenen video platformlarını da bilebilirsiniz.
 
-| Video URL                                                                                          | Platform   | ID             |
-| -------------------------------------------------------------------------------------------------- | ---------- | :------------- |
-| [https://www.**youtube**.com/watch?v=**H-B46URT4mg**](https://www.youtube.com/watch?v=H-B46URT4mg) | `youtube`  | `H-B46URT4mg`  |
-| [https://www.**twitch**.tv/videos/**1634779211**](https://www.twitch.tv/videos/1634779211)         | `twitch`   | `1634779211`   |
-| [https://www.**bilibili**.com/video/**BV1Q44y1B7Wf**
+| Video URL                                                                                          | Platform  | ID            |
+| -------------------------------------------------------------------------------------------------- | --------- | :------------ |
+| [https://www.**youtube**.com/watch?v=**H-B46URT4mg**](https://www.youtube.com/watch?v=H-B46URT4mg) | `youtube` | `H-B46URT4mg` |
+| [https://www.**twitch**.tv/videos/**1634779211**](https://www.twitch.tv/videos/1634779211)         | `twitch`  | `1634779211`  |
+| [https://www.**bilibili**.com/video/**BV1Q44y1B7Wf**                                               |
 
 ](https://www.bilibili.com/video/BV1Q44y1B7Wf) | `bilibili` | `BV1Q44y1B7Wf` |
 
