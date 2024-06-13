@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Bildiği yoldan değil, bilmediği yoldan giden; meraklı, genç bir mühendis.
+Bilmediği yoldan giden meraklı, genç bir mühendis.
 
 <!-- Mühendislik bir kültür, bir yaşam biçimidir. Araştırmayı, yorumlamayı, öğrenmeyi öğretir. Sürekli büyüyen bir tutku, hayatı daha iyi anlamlandırma sanatı ve bitmeyen bir öğrenme yolculuğudur. --> 
 <!-- [![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github)](https://github.com/ademavsar)&nbsp;&emsp;-->
