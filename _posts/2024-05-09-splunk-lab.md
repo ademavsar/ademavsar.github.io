@@ -1,7 +1,7 @@
 ---
 title: Splunk Universal Forwarder
 description: Bu lab rehberi, Splunk Universal Forwarder kullanarak sanal bir Windows 10 agent makinesi üzerinden log toplamayı göstermektedir.
-categories: [LAB]
+categories: [Lab]
 tags: [splunk]
 pin: false
 ---

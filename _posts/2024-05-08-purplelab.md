@@ -1,7 +1,7 @@
 ---
 title: PurpleLab Kurulum ve Kullanımı
-categories: [LAB]
-tags: [purple lab]
+categories: [Lab]
+tags: [security]
 pin: false
 image:  # Gönderi veya sayfa ile ilişkili bir resmi tanımlar.
   path: /assets/attachment/purplelab.png  # resmin yolu.

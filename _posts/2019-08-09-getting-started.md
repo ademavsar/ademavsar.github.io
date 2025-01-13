@@ -3,8 +3,8 @@ title: Chirpy - Başlarken
 description: Bu rehberde Chirpy'nin temellerini öğrenin. İlk Chirpy tabanlı web sitenizi nasıl kuracağınızı, yapılandıracağınızı, kullanacağınızı ve web sunucusuna nasıl dağıtacağınızı adım adım keşfedin.
 author: 
 date: 2019-08-09 20:55:00 +0800
-categories: [Blogging, Tutorial]
-tags: [getting started]
+categories: [Guides]
+tags: [blog]
 pin: false
 #media_subpath: '/posts/20180809'
 ---

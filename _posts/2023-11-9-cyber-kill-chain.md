@@ -1,7 +1,7 @@
 ---
 title: Cyber Kill Chain
-categories: [Cyber Security]
-tags: [cyber kill chain]     ## tag names should always be lowercase
+categories: [Security]
+tags: [security]     ## tag names should always be lowercase
 ---
 
 <img src="/assets/attachment/cyberkillchain.png" alt="Cyber Kill Chain">

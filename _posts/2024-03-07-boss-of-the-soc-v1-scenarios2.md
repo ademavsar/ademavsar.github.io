@@ -1,8 +1,8 @@
 ---
 title: Boss of the SOC v1 - Ransomware
-categories: [CTF]
-tags: [splunk]
-pin: true
+categories: [Security]
+tags: [ctf, splunk]
+pin: false
 image:  # Gönderi veya sayfa ile ilişkili bir resmi tanımlar.
   path: /assets/attachment/Scenarios2-00.png  # resmin yolu.
   lqip:   # düşük kaliteli resim yer tutucusu (low quality image placeholder).

@@ -2,8 +2,8 @@
 title: Chirpy - Favicon Rehberi
 author: 
 date: 2019-08-11 00:34:00 +0800
-categories: [Blogging, Tutorial]
-tags: [favicon]
+categories: [Guides]
+tags: [blog]
 ---
 [favicons](https://www.favicon-generator.org/about/) [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/) için `assets/img/favicons/`{: .filepath} dizinine yerleştirilmiştir. Kendi faviconlarınızı eklemek isteyebilirsiniz. Aşağıdaki bölümler, varsayılan faviconları oluşturmanıza ve değiştirmenize yardımcı olacaktır.
 

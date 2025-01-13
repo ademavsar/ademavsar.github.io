@@ -3,8 +3,8 @@ title: Chirpy'de Yazı Yazma Rehberi
 description: Bu rehber, Chirpy şablonunda yazı yazmayı adım adım gösterecek.
 author: 
 date: 2019-08-08 14:10:00 +0800
-categories: [Blogging, Tutorial]
-tags: [writing]
+categories: [Guides]
+tags: [blog]
 render_with_liquid: false
 ---
 

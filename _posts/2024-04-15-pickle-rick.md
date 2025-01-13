@@ -1,8 +1,8 @@
 ---
 title: Pickle Rick
 description: A Rick and Morty CTF. Help turn Rick back into a human!
-categories: [CTF]
-tags: [tryhackme]    #tags always lowercase
+categories: [Security]
+tags: [ctf]    #tags always lowercase
 image:  # Gönderi veya sayfa ile ilişkili bir resmi tanımlar.
   path: https://raw.githubusercontent.com/ademavsar/ademavsar.github.io/master/assets/attachment/picklerick.gif  # resmin yolu.
   lqip:   # düşük kaliteli resim yer tutucusu (low quality image placeholder).

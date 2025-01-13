@@ -96,7 +96,8 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://raw.githubusercontent.com/ademavsar/ademavsar.github.io/master/assets/img/rick.gif
+# avatar: https://raw.githubusercontent.com/ademavsar/ademavsar.github.io/master/assets/img/rick.gif
+avatar: /assets/img/Ata.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -145,7 +146,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+paginate: 5
 
 # The base URL of your site
 baseurl: ""

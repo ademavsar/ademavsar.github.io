@@ -1,7 +1,7 @@
 ---
 title: Otomatik Ortam Sıcaklığı Kontrol Sistemi
-categories: [Project]
-tags: [pic18f46k22]
+categories: [Projects]
+tags: [pic, coding]
 pin: true  # gönderinin veya sayfanın, listelerde üstte sabitlenip sabitlenmeyeceğini belirler.
 image:  # Gönderi veya sayfa ile ilişkili bir resmi tanımlar.
   path: /assets/attachment/autotempcontrol1.png  # resmin yolu.

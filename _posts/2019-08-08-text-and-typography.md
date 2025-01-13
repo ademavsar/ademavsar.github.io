@@ -3,9 +3,9 @@ title: Metin ve Tipografi
 description: Metin, tipografi, matematik denklemleri, diyagramlar, akış şemaları, resimler, videolar ve daha fazlasına dair örnekler.
 author: 
 date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
-pin: true
+categories: [Guides]
+tags: [blog]
+pin: false
 math: true
 mermaid: true
 image:
