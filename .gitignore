@@ -21,6 +21,5 @@ package-lock.json
 !.vscode/settings.json
 !.vscode/extensions.json
 
-# Misc
-
 /_tabs/cv.md
+/.devcontainer
